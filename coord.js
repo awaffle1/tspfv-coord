@@ -54,7 +54,7 @@ var draw = function () {
     // Draw map
     // Sprite, X location, Y location, Image width, Image height
     // You can leave the image height and width off, if you do it will draw the image at default size
-    context.drawImage(mapSprite, 0, 0);
+    context.drawImage(mapSprite, 0, 0, 700, 700);
 
     // Draw markers
     for (var i = 0; i < Markers.length; i++) {
